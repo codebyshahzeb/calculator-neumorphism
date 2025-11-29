@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     background: #e0e0e0;   /* Light grey background for neumorphism */
+}
+.maincontainer{
+    width: 270px;
+    height: 420px;
+    padding-left: 20px;
+     background: #e0e0e0;
+       box-shadow: -8px -4px 8px 0px #ffffff,
+    8px 4px 12px 0px #d1d9e6,
+    4px 4px 4px 0px #d1d9e6 inset,
+    -4px -4px 4px 0px #ffffff inset;
+       border-radius: 3px;
+}
+.maincontainer input{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    border: none;
+    background-color:#e0e0e0;
+    text-align: right;
+    font-size: 30px;
+    padding-top: 4px;
+    color: purple;
+    cursor: pointer;
+    
+;
+    
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    background: #e0e0e0;
+    box-shadow: -8px -4px 8px 0px #ffffff,
+    8px 4px 12px 0px #d1d9e6,
+    4px 4px 4px 0px #d1d9e6 inset,
+    -4px -4px 4px 0px #ffffff inset;
+    font-size: 11px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #6A00FF, #FF00A8);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Montserrat";
+    cursor: pointer;
+
+}
+
+.maincontainer input:focus{
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    box-shadow: 
+        -2px -2px 4px #ffffff,
+        2px 2px 6px #c5cbd3;
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #8b2bff, #ff42c8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
